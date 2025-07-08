@@ -1,10 +1,10 @@
-/* General styles */
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: #f0f8ff;
+  background: linear-gradient(120deg, #e0f7fa, #fce4ec);
   color: #333;
   padding: 40px;
   line-height: 1.6;
+  min-height: 100vh;
 }
 
 /* Headings */
@@ -26,7 +26,6 @@ h3, h4, h5, h6 {
   color: #666;
 }
 
-/* Paragraphs */
 p {
   font-size: 1.1rem;
   margin-top: 10px;
@@ -40,4 +39,20 @@ img {
   max-width: 100%;
   height: auto;
   box-shadow: 4px 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Button styling */
+button {
+  background-color: #0077cc;
+  color: white;
+  font-size: 1rem;
+  padding: 10px 20px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005fa3;
 }
